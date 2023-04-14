@@ -1,0 +1,493 @@
+/******************************************************************COLOURS*/
+/*
+CLOUD: #C9C4C1
+RANGOON GREEN: #151612
+SHADOW: #8A6F52
+IRONSTONE: #7E523A
+DARK GREEN: #759614
+LIGHT GREEN: #a8d00f
+
+YELLOW: #f0c200;
+*/
+/******************************************************************FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800&family=Quicksand:wght@300&display=swap');
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/******************************************************************GLOBAL*/
+h1 {
+    font-size: 600%;
+    text-shadow: 1px 1px 1px #000;
+    padding: 20px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*    text-shadow: 0.5px 0 0 #000;*/
+    padding: 10px;
+}
+
+a,
+img {
+    text-decoration: none;
+    color: #759614;
+    transition: all 0.5s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    line-height: 1.2em;
+    color: #151612;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 2em
+}
+
+h5 {
+    font-size: 1.5em;
+    color: #a8d00f;
+}
+h6 {
+    font-size: 1em;
+}
+iframe {
+    width: 80%;
+    margin: 0 auto;
+/*    height: 300px;*/
+    padding-bottom: 20px;
+}
+video {
+    width:90%;
+    height: auto; 
+    padding-bottom: 10px;
+/*
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+*/
+}
+
+/******************************************************************LAYOUTS*/
+#container {
+    text-align: center;
+    width: 99%;
+    margin: 0 auto;
+    background-color: rgba(201, 196, 193, 0.13);
+}
+
+/*NAV*/
+#mainNav {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #C9C4C1;
+
+}
+
+#mainNav ul li {
+    display: inline;
+}
+
+#mainNav a {
+    color: #8A6F52;
+    padding: 10px 30px;
+}
+
+#mainNav a:hover {
+    text-decoration: underline;
+}
+
+/*HEADER*/
+#mainHeader {
+    background-image:
+        url(../images/logo.png),
+        url(../images/_1_header-background.jpg);
+    background-position:
+        30px 20px,
+        center center;
+    background-repeat: no-repeat;
+    background-size:
+        100px,
+        cover;
+    padding: 200px 0;
+    color: #759614;
+}
+
+#mainHeader h2 {
+    background-color: rgba(201, 196, 193, 0.78);
+    color: #151612;
+}
+
+/*PRODUCTS HEADER*/
+#productsHeader {
+    background-image:
+        url(../images/logo.png),
+        url(../images/_2_product-header-background.jpg);
+    background-position:
+        30px 20px,
+        center center;
+    background-repeat: no-repeat;
+    background-size:
+        100px,
+        cover;
+    padding: 200px 0;
+    color: #759614;
+}
+/*CAFE HEADER*/
+#cafeHeader {
+    background-image:
+        url(../images/logo-cafe.png),
+        url(../images/cafe-images/coffee-beans.jpg);
+    background-position:
+        30px 20px,
+        center center;
+    background-repeat: no-repeat;
+    background-size:
+        100px,
+        cover;
+    padding: 200px 0;
+    
+}
+#cafeHeader h1, #cafeHeader h2, #contact-cafe h5 {
+    color: #f0c200;
+}
+/*CAFE STUFF*/
+#cafeContent  h3, #col-cafe h3, #vimeo-vid h3 {
+    background-color: #f0c200;
+}
+#col-cafe span {
+    font-size: 500%;
+}
+
+#col-cafe h5{
+    color: #f0c200;
+}
+#vimeo-vid {
+    margin-top:10px;
+}
+/*HOW IT WORKS*/
+#mainContent h3, #colProducts h3, #about h3 {
+    background-color: #759614;
+}
+/*PRODUCTS*/
+#products {
+    background-image: url(../images/products-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto auto 10px auto;
+    padding: 200px 0;
+
+}
+
+#products h3 {
+    padding: 20px 0;
+    font-size: 4.5em;
+    background-color: rgba(201, 196, 193, 0.91);
+}
+
+#products a {
+    background-color: rgba(21, 22, 18, 0.85);
+    padding: 10px;
+    color: #a8d00f;
+    font-size: 1em;
+
+}
+
+#products a:hover {
+    background-color: rgba(168, 208, 15, 0.85);
+    padding: 10px;
+    color: #151612;
+}
+
+#colProducts h3 {
+    margin-top: 10px;
+}
+/*ABOUT US*/
+#about {
+    background-color: #C9C4C1;
+}
+
+
+/*CONTACT US*/
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact span, #contact i {
+    color: #151612;
+}
+
+#contact span:hover, #contact i:hover {
+    background-color: #a8d00f;
+}
+
+/*FOOTER*/
+#mainFooter {
+    padding: 10px;
+    background-color: #8A6F52;
+    color: #C9C4C1;
+}
+
+
+/******************************************************************COLUMNS*/
+.col13 {
+    width: 29.3333%;
+}
+
+.col33 {
+    width: 100%
+}
+
+.col12 {
+    width: 46%;
+}
+.col23 {
+    width:64.66%;
+}
+
+.col13,
+.col12,
+.col33 
+.col23{
+    margin: 1%;
+    padding: 1%;
+}
+
+/******************************************************************MOBILE*/
+/*PHONE*/
+@media screen and (max-width:480px) {
+    #container {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgba(201, 196, 193, 0.36);
+    }
+
+    /*NAV*/
+    #mainNav {
+        height: 50px;
+        width: 100%;
+        font-size: 0.8em;
+        background-color: #C9C4C1;
+        text-align: center;
+
+    }
+
+    #mainNav ul li {
+        display: inline;
+    }
+
+    #mainNav a {
+        color: #8A6F52;
+        padding: 10px 10px;
+    }
+
+    #mainNav a:hover {
+        background-color: #a8d00f;
+        color: #fff;
+    }
+
+    /*HEADER*/
+    #mainHeader {
+        background-image:
+            url(../images/logo.png),
+            url(../images/_1_header-background.jpg);
+        background-position:
+            10px 10px,
+            center center;
+        background-repeat: no-repeat;
+        background-size:
+            100px,
+            cover;
+        padding: 200px 0;
+        color: #759614;
+    }
+
+    #mainHeader h2 {
+        background-color: rgba(201, 196, 193, 0.78);
+        color: #151612;
+    }
+
+    /*PRODUCTS PAGE HEADER*/
+    #productsHeader {
+        background-image:
+            url(../images/logo.png),
+            url(../images/_2_product-header-background.jpg);
+        background-position:
+            10px 10px,
+            center center;
+        background-repeat: no-repeat;
+        background-size:
+            100px,
+            cover;
+        padding: 200px 0;
+        color: #759614;
+    }
+
+    #productsHeader h1 {
+        font-size: 3.5em
+    }
+
+    /*HOW IT WORKS*/
+    #mainContent h3,
+    #colProducts h3,
+    #about h3 {
+        background-color: #759614;
+    }
+
+    /*PRODUCTS*/
+    #products {
+        background-image: url(../images/products-background.jpg);
+        background-position: right center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin: auto auto 10px auto;
+        padding: 200px 0;
+
+    }
+
+    #products h3 {
+        padding: 20px 0;
+        font-size: 3.8em;
+        background-color: rgba(201, 196, 193, 0.91);
+    }
+
+    #products a {
+        background-color: rgba(21, 22, 18, 0.85);
+        padding: 10px;
+        color: #a8d00f;
+        font-size: 1em;
+
+    }
+
+    #products a:hover {
+        background-color: rgba(168, 208, 15, 0.85);
+        padding: 10px;
+        color: #151612;
+    }
+
+    /*ABOUT US*/
+    #about {
+        background-color: #C9C4C1;
+    }
+
+    /*CONTACT US*/
+    #contact a:hover {
+        text-decoration: underline;
+    }
+
+    #contact img {
+        width: 7%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #contact img:hover {
+        background-color: #a8d00f;
+    }
+
+    /*FOOTER*/
+    #mainFooter {
+        padding: 10px;
+        background-color: #8A6F52;
+        color: #C9C4C1;
+    }
+
+    .col12,
+    .col13,
+    .col33,
+    .col23 {
+        margin: 1%;
+        padding: 1%;
+        float: none !important;
+    }
+
+    .col13, .col23, .col12 {
+        width: 96%;
+    }
+
+    .col33 {}
+
+
+}
+
+/*END OF PHONE*/
+/**************************************************************REUSABLE CLASSES*/
+.current {
+    border-top: 1px solid #7E523A;
+    border-bottom: 1px solid #7E523A;
+}
+
+.notCentered {
+    text-align: left;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+/*RESPONSIVE IFRAMES*/
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 94%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.vid-container {
+    padding: 10px;
+}
+.socials i{
+    font-size: 250%;
+    padding: 10px 30px;
+}
+.col23 i {
+    font-size: 300%
+}
