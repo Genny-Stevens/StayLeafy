@@ -128,7 +128,7 @@ video {
 #mainHeader {
     background-image:
         url(../images/logo.png),
-        url(../images/_1_header-background.jpg);
+        url(../images/header-background.jpg);
     background-position:
         30px 20px,
         center center;
@@ -149,7 +149,7 @@ video {
 #productsHeader {
     background-image:
         url(../images/logo.png),
-        url(../images/_2_product-header-background.jpg);
+        url(../images/product-header-background.jpg);
     background-position:
         30px 20px,
         center center;
@@ -320,7 +320,7 @@ video {
     #mainHeader {
         background-image:
             url(../images/logo.png),
-            url(../images/_1_header-background.jpg);
+            url(../images/header-background.jpg);
         background-position:
             10px 10px,
             center center;
@@ -341,7 +341,7 @@ video {
     #productsHeader {
         background-image:
             url(../images/logo.png),
-            url(../images/_2_product-header-background.jpg);
+            url(../images/product-header-background.jpg);
         background-position:
             10px 10px,
             center center;
@@ -435,9 +435,6 @@ video {
     .col13, .col23, .col12 {
         width: 96%;
     }
-
-    .col33 {}
-
 
 }
 
